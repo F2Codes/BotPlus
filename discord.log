@@ -1,0 +1,362 @@
+[2025-08-11 15:28:05] [INFO    ] discord.client: logging in using static token
+[2025-08-11 15:28:06] [DEBUG   ] discord.http: GET https://discord.com/api/v10/users/@me with None has returned 200
+[2025-08-11 15:28:06] [DEBUG   ] discord.http: GET /users/@me has found its initial rate limit bucket hash (78bb8553d9352a5a2f89f9def401287a).
+[2025-08-11 15:28:06] [DEBUG   ] discord.http: GET https://discord.com/api/v10/users/@me has received {'id': '1404418291321012225', 'username': 'BotPlus', 'avatar': None, 'discriminator': '1652', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None, 'mfa_enabled': True, 'locale': 'en-US', 'premium_type': 0, 'email': None, 'verified': True, 'bio': ''}
+[2025-08-11 15:28:07] [DEBUG   ] discord.http: GET https://discord.com/api/v10/oauth2/applications/@me with None has returned 200
+[2025-08-11 15:28:07] [DEBUG   ] discord.http: GET /oauth2/applications/@me has found its initial rate limit bucket hash (d28a133af187e91d71d96a223467ce49).
+[2025-08-11 15:28:07] [DEBUG   ] discord.http: GET https://discord.com/api/v10/oauth2/applications/@me has received {'id': '1404418291321012225', 'name': 'Bot Plus', 'icon': None, 'description': '', 'type': None, 'bot': {'id': '1404418291321012225', 'username': 'BotPlus', 'avatar': None, 'discriminator': '1652', 'public_flags': 0, 'flags': 0, 'bot': True, 'banner': None, 'accent_color': None, 'global_name': None, 'avatar_decoration_data': None, 'collectibles': None, 'display_name_styles': None, 'banner_color': None, 'clan': None, 'primary_guild': None}, 'summary': '', 'is_monetized': False, 'is_verified': False, 'is_discoverable': False, 'bot_public': True, 'bot_require_code_grant': False, 'install_params': {'scopes': ['applications.commands'], 'permissions': '0'}, 'integration_types_config': {'0': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}, '1': {'oauth2_install_params': {'scopes': ['applications.commands'], 'permissions': '0'}}}, 'verify_key': '3c9804b06d0cf4cc185da847222ce0f55e59e4250861731f17657792ac5aa1b1', 'flags': 557056, 'hook': True, 'storefront_available': False, 'redirect_uris': [], 'interactions_endpoint_url': None, 'role_connections_verification_url': None, 'owner': {'id': '1201086379661217792', 'username': 'f2dev_', 'avatar': 'b0eaa83c61522c7667e3754ed8dfdde3', 'discriminator': '0', 'public_flags': 4194432, 'flags': 4194432, 'banner': None, 'accent_color': 7915503, 'global_name': 'Errorer', 'avatar_decoration_data': {'asset': 'a_5f3d1a6b3139724756d1bbc6e9c68165', 'sku_id': '1395429488040476693', 'expires_at': 1758841200}, 'collectibles': None, 'display_name_styles': None, 'banner_color': '#78c7ef', 'clan': {'identity_guild_id': '267624335836053506', 'identity_enabled': True, 'tag': 'snek', 'badge': 'fd3549e1a1a692afda2a7b4cf6b6cad6'}, 'primary_guild': {'identity_guild_id': '267624335836053506', 'identity_enabled': True, 'tag': 'snek', 'badge': 'fd3549e1a1a692afda2a7b4cf6b6cad6'}}, 'approximate_guild_count': 0, 'approximate_user_install_count': 0, 'approximate_user_authorization_count': 0, 'interactions_event_types': [], 'interactions_version': 1, 'explicit_content_filter': 0, 'rpc_application_state': 0, 'store_application_state': 1, 'verification_state': 1, 'integration_public': True, 'integration_require_code_grant': False, 'discoverability_state': 1, 'discovery_eligibility_flags': 2272, 'monetization_state': 1, 'verification_eligibility_flags': 123804, 'monetization_eligibility_flags': 247524, 'team': None, 'internal_guild_restriction': 2, 'approved_consoles': []}
+[2025-08-11 15:28:08] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway.discord.gg/
+[2025-08-11 15:28:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-arm-us-east1-c-nkfr",{"micros":0.0}]']}}
+[2025-08-11 15:28:08] [DEBUG   ] discord.gateway: Shard ID None has sent the IDENTIFY payload.
+[2025-08-11 15:28:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:28:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'READY', 's': 1, 'op': 0, 'd': {'v': 10, 'user_settings': {}, 'user': {'verified': True, 'username': 'BotPlus', 'primary_guild': None, 'mfa_enabled': True, 'id': '1404418291321012225', 'global_name': None, 'flags': 0, 'email': None, 'discriminator': '1652', 'clan': None, 'bot': True, 'avatar': None}, 'session_type': 'normal', 'session_id': 'e8933a373a726ae79ffc904f8ffa493e', 'resume_gateway_url': 'wss://gateway-us-east1-c.discord.gg', 'relationships': [], 'private_channels': [], 'presences': [], 'guilds': [{'unavailable': True, 'id': '1400180018323259492'}], 'guild_join_requests': [], 'geo_ordered_rtc_regions': ['dubai', 'tel-aviv', 'bucharest', 'india', 'warsaw'], 'game_relationships': [], 'auth': {}, 'application': {'id': '1404418291321012225', 'flags': 557056}, '_trace': ['["gateway-prd-arm-us-east1-c-nkfr",{"micros":216085,"calls":["id_created",{"micros":489,"calls":[]},"session_lookup_time",{"micros":263,"calls":[]},"session_lookup_finished",{"micros":9,"calls":[]},"discord-sessions-prd-2-164",{"micros":215070,"calls":["start_session",{"micros":196960,"calls":["discord-api-rpc-8cc88bf74-7t2g9",{"micros":165763,"calls":["get_user",{"micros":13930},"get_guilds",{"micros":18008},"send_scheduled_deletion_message",{"micros":12},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8},"pending_payments",{"micros":6749},"apex_experiments",{"micros":4028},"user_activities",{"micros":5},"played_application_ids",{"micros":2}]}]},"starting_guild_connect",{"micros":39,"calls":[]},"presence_started",{"micros":746,"calls":[]},"guilds_started",{"micros":91,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":17215,"calls":[]},"connect_finished",{"micros":17220,"calls":[]},"build_ready",{"micros":12,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}]']}}
+[2025-08-11 15:28:08] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-08-11 15:28:08] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: e8933a373a726ae79ffc904f8ffa493e).
+[2025-08-11 15:28:08] [DEBUG   ] discord.client: Dispatching event connect
+[2025-08-11 15:28:08] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_CREATE', 's': 2, 'op': 0, 'd': {'premium_subscription_count': 0, 'system_channel_flags': 0, 'soundboard_sounds': [], 'emojis': [], 'activity_instances': [], 'vanity_url_code': None, 'afk_timeout': 300, 'explicit_content_filter': 2, 'premium_features': None, 'profile': None, 'verification_level': 1, 'owner_id': '1201086379661217792', 'region': 'deprecated', 'mfa_level': 0, 'public_updates_channel_id': '1400180147008831531', 'moderator_reporting': None, 'hub_type': None, 'banner': None, 'id': '1400180018323259492', 'inventory_settings': None, 'name': "F2's server", 'safety_alerts_channel_id': None, 'guild_scheduled_events': [], 'default_message_notifications': 1, 'presences': [], 'threads': [], 'members': [{'user': {'username': 'BotPlus', 'public_flags': 0, 'primary_guild': None, 'id': '1404418291321012225', 'global_name': None, 'display_name_styles': None, 'display_name': None, 'discriminator': '1652', 'collectibles': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': None}, 'roles': ['1404419632173027341'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-08-11T11:02:13.280000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}], 'max_stage_video_channel_users': 50, 'features': ['NEWS', 'COMMUNITY'], 'afk_channel_id': None, 'nsfw': False, 'joined_at': '2025-08-11T11:02:13.280000+00:00', 'rules_channel_id': '1400180147008831528', 'max_video_channel_users': 25, 'application_command_counts': {}, 'description': None, 'channels': [{'version': 1753899336348, 'type': 4, 'position': 1, 'permission_overwrites': [], 'name': 'Text Channels', 'id': '1400180019107729488', 'flags': 0}, {'version': 1753899330649, 'type': 4, 'position': 0, 'permission_overwrites': [], 'name': 'Voice Channels', 'id': '1400180019107729489', 'flags': 0}, {'version': 1753899330656, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1400180019107729488', 'name': 'general', 'last_message_id': '1404433570721960059', 'id': '1400180019107729490', 'icon_emoji': {'name': '👋', 'id': None}, 'flags': 0}, {'version': 1753899330676, 'user_limit': 0, 'type': 2, 'rtc_region': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [], 'parent_id': '1400180019107729489', 'name': 'General', 'last_message_id': None, 'id': '1400180019107729491', 'icon_emoji': {'name': '🎙', 'id': None}, 'flags': 0, 'bitrate': 64000}, {'version': 1753899361140, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [{'type': 0, 'id': '1400180018323259492', 'deny': '2048', 'allow': '0'}], 'name': 'rules', 'last_message_id': None, 'id': '1400180147008831528', 'flags': 0}, {'version': 1753899361164, 'type': 0, 'topic': None, 'rate_limit_per_user': 0, 'position': 0, 'permission_overwrites': [{'type': 0, 'id': '1400180018323259492', 'deny': '1024', 'allow': '0'}], 'name': 'moderator-only', 'last_message_id': '1400180148027785348', 'id': '1400180147008831531', 'flags': 0}], 'discovery_splash': None, 'max_members': 25000000, 'member_count': 3, 'application_id': None, 'owner_configured_content_level': 0, 'system_channel_id': '1400180019107729490', 'stage_instances': [], 'embedded_activities': [], 'splash': None, 'premium_progress_bar_enabled': False, 'lazy': True, 'nsfw_level': 0, 'home_header': None, 'preferred_locale': 'en-US', 'voice_states': [], 'premium_tier': 0, 'icon': 'ed55b5c4d3b45e84c39f79564765dad5', 'stickers': [], 'version': 1753899869751, 'incidents_data': None, 'unavailable': False, 'large': False, 'latest_onboarding_question_id': None, 'roles': [{'version': 1753899360683, 'unicode_emoji': None, 'tags': {}, 'position': 0, 'permissions': '2222085186637377', 'name': '@everyone', 'mentionable': False, 'managed': False, 'id': '1400180018323259492', 'icon': None, 'hoist': False, 'flags': 0, 'colors': {'tertiary_color': None, 'secondary_color': None, 'primary_color': 0}, 'color': 0}, {'version': 1754913441322, 'unicode_emoji': None, 'tags': {'bot_id': '1404418291321012225'}, 'position': 1, 'permissions': '563276639759424', 'name': 'Bot', 'mentionable': False, 'managed': True, 'id': '1404419632173027341', 'icon': None, 'hoist': False, 'flags': 0, 'colors': {'tertiary_color': None, 'secondary_color': None, 'primary_color': 0}, 'color': 0}]}}
+[2025-08-11 15:28:08] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-08-11 15:28:09] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_MEMBERS_CHUNK', 's': 3, 'op': 0, 'd': {'nonce': '99f7665c71784a95515079e6580014c3', 'members': [{'user': {'username': 'f2dev_', 'public_flags': 4194432, 'primary_guild': {'tag': 'snek', 'identity_guild_id': '267624335836053506', 'identity_enabled': True, 'badge': 'fd3549e1a1a692afda2a7b4cf6b6cad6'}, 'id': '1201086379661217792', 'global_name': 'Errorer', 'display_name_styles': None, 'display_name': 'Errorer', 'discriminator': '0', 'collectibles': None, 'bot': False, 'avatar_decoration_data': {'sku_id': '1395429488040476693', 'expires_at': 1758841200, 'asset': 'a_5f3d1a6b3139724756d1bbc6e9c68165'}, 'avatar': 'b0eaa83c61522c7667e3754ed8dfdde3'}, 'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-07-30T18:15:30.471000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, {'user': {'username': 'XBot', 'public_flags': 0, 'primary_guild': None, 'id': '1399678793752510544', 'global_name': None, 'display_name_styles': None, 'display_name': None, 'discriminator': '4288', 'collectibles': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': '7580cefa00a73aa44c16f3a11e777152'}, 'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-08-09T09:36:51.899000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}, {'user': {'username': 'BotPlus', 'public_flags': 0, 'primary_guild': None, 'id': '1404418291321012225', 'global_name': None, 'display_name_styles': None, 'display_name': None, 'discriminator': '1652', 'collectibles': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': None}, 'roles': ['1404419632173027341'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-08-11T11:02:13.280000+00:00', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}], 'guild_id': '1400180018323259492', 'chunk_index': 0, 'chunk_count': 1}}
+[2025-08-11 15:28:09] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-08-11 15:28:09] [DEBUG   ] discord.state: Processed a chunk for 3 members in guild ID 1400180018323259492.
+[2025-08-11 15:28:10] [DEBUG   ] discord.client: Dispatching event guild_available
+[2025-08-11 15:28:10] [DEBUG   ] discord.client: Dispatching event ready
+[2025-08-11 15:28:49] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:28:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:29:30] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:29:30] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:30:12] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:30:12] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:30:53] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:30:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:31:34] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:31:34] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:32:15] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:32:16] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:32:57] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:32:57] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:33:38] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:33:38] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:34:19] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:34:19] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:35:00] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 3.
+[2025-08-11 15:35:01] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:35:32] [DEBUG   ] discord.gateway: Received WSMessage(type=<WSMsgType.CLOSED: 257>, data=None, extra=None)
+[2025-08-11 15:35:32] [DEBUG   ] discord.gateway: Websocket closed with 1006, attempting a reconnect.
+[2025-08-11 15:35:32] [DEBUG   ] discord.client: Got a request to RESUME the websocket.
+[2025-08-11 15:35:32] [DEBUG   ] discord.client: Dispatching event disconnect
+[2025-08-11 15:35:35] [DEBUG   ] discord.client: Dispatching event disconnect
+[2025-08-11 15:35:35] [ERROR   ] discord.client: Attempting a reconnect in 0.69s
+Traceback (most recent call last):
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 804, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 600, in finish_connect
+    ov.getresult()
+    ~~~~~~~~~~~~^^
+ConnectionAbortedError: [WinError 1236] The network connection was aborted by the local system
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [The network connection was aborted by the local system]
+[2025-08-11 15:35:57] [DEBUG   ] discord.client: Dispatching event disconnect
+[2025-08-11 15:35:57] [ERROR   ] discord.client: Attempting a reconnect in 1.86s
+Traceback (most recent call last):
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 804, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 600, in finish_connect
+    ov.getresult()
+    ~~~~~~~~~~~~^^
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [The semaphore timeout period has expired]
+[2025-08-11 15:36:24] [DEBUG   ] discord.client: Dispatching event disconnect
+[2025-08-11 15:36:24] [ERROR   ] discord.client: Attempting a reconnect in 2.48s
+Traceback (most recent call last):
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 122, in start_connection
+    raise first_exception
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohappyeyeballs\impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 804, in _poll
+    value = callback(transferred, key, ov)
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\windows_events.py", line 600, in finish_connect
+    ov.getresult()
+    ~~~~~~~~~~~~^^
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\uz9er\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [The semaphore timeout period has expired]
+[2025-08-11 15:36:28] [DEBUG   ] discord.gateway: Created websocket connected to wss://gateway-us-east1-c.discord.gg
+[2025-08-11 15:36:28] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 10, 'd': {'heartbeat_interval': 41250, '_trace': ['["gateway-prd-arm-us-east1-c-cfls",{"micros":0.0}]']}}
+[2025-08-11 15:36:28] [DEBUG   ] discord.gateway: Shard ID None has sent the RESUME payload.
+[2025-08-11 15:36:28] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:36:28] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'RESUMED', 's': 4, 'op': 0, 'd': {'_trace': ['["gateway-prd-arm-us-east1-c-cfls",{"micros":5571,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":4854,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-2-164",{"micros":16}]}]']}}
+[2025-08-11 15:36:28] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-08-11 15:36:28] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session e8933a373a726ae79ffc904f8ffa493e.
+[2025-08-11 15:36:28] [DEBUG   ] discord.client: Dispatching event resumed
+[2025-08-11 15:36:36] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'USER_UPDATE', 's': 5, 'op': 0, 'd': {'verified': True, 'username': 'BotPlus', 'public_flags': 0, 'primary_guild': None, 'premium_type': 0, 'mfa_enabled': True, 'locale': 'en-US', 'id': '1404418291321012225', 'global_name': None, 'flags': 0, 'email': None, 'display_name_styles': None, 'discriminator': '1652', 'collectibles': None, 'clan': None, 'bot': True, 'bio': '', 'banner_color': None, 'banner': None, 'avatar_decoration_data': None, 'avatar': None, 'authenticator_types': [], 'accent_color': None}}
+[2025-08-11 15:36:36] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-08-11 15:37:09] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 5.
+[2025-08-11 15:37:09] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:37:50] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 5.
+[2025-08-11 15:37:50] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:37:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'USER_UPDATE', 's': 6, 'op': 0, 'd': {'verified': True, 'username': 'BotPlus', 'public_flags': 0, 'primary_guild': None, 'premium_type': 0, 'mfa_enabled': True, 'locale': 'en-US', 'id': '1404418291321012225', 'global_name': None, 'flags': 0, 'email': None, 'display_name_styles': None, 'discriminator': '1652', 'collectibles': None, 'clan': None, 'bot': True, 'bio': '', 'banner_color': None, 'banner': None, 'avatar_decoration_data': None, 'avatar': '15ab9537ff34f3c1d922fcd1b48bc638', 'authenticator_types': [], 'accent_color': None}}
+[2025-08-11 15:37:53] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-08-11 15:37:53] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_MEMBER_UPDATE', 's': 7, 'op': 0, 'd': {'user': {'username': 'BotPlus', 'public_flags': 0, 'primary_guild': None, 'id': '1404418291321012225', 'global_name': None, 'display_name_styles': None, 'display_name': None, 'discriminator': '1652', 'collectibles': None, 'bot': True, 'avatar_decoration_data': None, 'avatar': '15ab9537ff34f3c1d922fcd1b48bc638'}, 'roles': ['1404419632173027341'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2025-08-11T11:02:13.280000+00:00', 'guild_id': '1400180018323259492', 'flags': 0, 'deaf': False, 'communication_disabled_until': None, 'banner': None, 'avatar': None}}
+[2025-08-11 15:37:53] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-08-11 15:37:53] [DEBUG   ] discord.client: Dispatching event member_update
+[2025-08-11 15:38:31] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:38:32] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:39:13] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:39:13] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:39:54] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:39:54] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:40:35] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:40:35] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:41:16] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:41:17] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:41:58] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:41:58] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:42:39] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:42:39] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:43:20] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:43:20] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:44:01] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2025-08-11 15:44:02] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:44:38] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'USER_UPDATE', 's': 8, 'op': 0, 'd': {'verified': True, 'username': 'BotPlus', 'public_flags': 0, 'primary_guild': None, 'premium_type': 0, 'mfa_enabled': True, 'locale': 'en-US', 'id': '1404418291321012225', 'global_name': None, 'flags': 0, 'email': None, 'display_name_styles': None, 'discriminator': '1652', 'collectibles': None, 'clan': None, 'bot': True, 'bio': '', 'banner_color': None, 'banner': '2aadecc345ace14792aeba81daa026d7', 'avatar_decoration_data': None, 'avatar': '15ab9537ff34f3c1d922fcd1b48bc638', 'authenticator_types': [], 'accent_color': None}}
+[2025-08-11 15:44:38] [DEBUG   ] discord.client: Dispatching event socket_event_type
+[2025-08-11 15:44:43] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:44:43] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:45:24] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:45:24] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:46:05] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:46:05] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:46:46] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:46:47] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:47:28] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:47:28] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:48:09] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:48:09] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:48:50] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:48:50] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:49:31] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:49:32] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:50:13] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:50:13] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:50:54] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:50:54] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:51:35] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:51:35] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:52:17] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:52:17] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:52:58] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:52:58] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:53:39] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:53:39] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:54:20] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:54:21] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:55:02] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:55:02] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:55:43] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:55:43] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:56:24] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:56:24] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:57:05] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:57:06] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:57:47] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:57:47] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:58:28] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:58:28] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:59:09] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:59:09] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2025-08-11 15:59:50] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 8.
+[2025-08-11 15:59:51] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
